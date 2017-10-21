@@ -1,0 +1,12 @@
+package be.pxl.h6.opdr2;
+
+public class H6opdr2 {
+
+	public static void main(String[] args) {
+		
+		char data[] = {'A', 'B', 'C'};
+	     String str = new String(data);
+	     System.out.println(data);
+	}
+
+}

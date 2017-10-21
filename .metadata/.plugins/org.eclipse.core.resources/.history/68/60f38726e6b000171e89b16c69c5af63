@@ -1,0 +1,15 @@
+package be.pxl.h5.extraOef5;
+
+import java.util.Scanner;
+
+public class h5extraOef6 {
+
+	public static void main(String[] args) {
+		Scanner keyboard = new Scanner(System.in);
+		
+		int getal;
+		System.out.println("Geef een getal in dat bestaat uit minstens 3 cijfers");
+		getal = keyboard.nextInt();
+	}
+
+}

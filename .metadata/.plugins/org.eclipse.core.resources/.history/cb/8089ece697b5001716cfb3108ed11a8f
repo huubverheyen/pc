@@ -1,0 +1,14 @@
+package be.pxl.h6.opdr3;
+
+
+public class H6opdr3 {
+
+	public static void main(String[] args) {
+		String text = "Hoi ik ben Bianca";
+		System.out.println(text);
+		int length = text.length();
+		System.out.println("De lengte van de tekst is " + length);
+
+	}
+
+}

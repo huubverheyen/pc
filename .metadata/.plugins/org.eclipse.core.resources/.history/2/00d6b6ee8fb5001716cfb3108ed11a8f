@@ -1,0 +1,20 @@
+package be.pxl.h6.oef1;
+
+import java.util.Random;
+
+public class H6oef1 {
+
+	public static void main(String[] args) {
+		Random random = new Random();
+		int getal1 = random.nextInt(21);
+		int getal2 = random.nextInt(21);
+		
+		if (getal1 < getal2) {
+			int temp = getal2;
+			getal2 = getal1;
+			getal1 = temp;
+		}
+		System.out.println(getal1 + " - " + getal2);
+	}
+
+}
