@@ -8,7 +8,6 @@ public class H6slide30 {
 		Scanner keyboard = new Scanner(System.in);
 		String text = keyboard.next();
 		System.out.println(text);
-
 	}
 
 }
